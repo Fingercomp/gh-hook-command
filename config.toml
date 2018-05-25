@@ -1,0 +1,5 @@
+secret = "this is a secret secret you should not know about"
+bind = "0.0.0.0:8000"
+
+[commands]
+push = 'cat /dev/stdin && echo ""'

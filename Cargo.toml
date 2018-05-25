@@ -1,0 +1,16 @@
+[package]
+name = "gh-hook-command"
+version = "0.1.0"
+authors = ["Fingercomp <fingercomp@users.noreply.github.com>"]
+license = "Apache 2.0"
+
+[dependencies]
+actix-web = "0.6"
+futures = "0.1"
+
+rust-crypto = "0.2"
+
+serde = "1.0"
+toml = "0.4"
+serde_json = "1.0"
+serde_derive = "1.0"
